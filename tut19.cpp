@@ -5,7 +5,7 @@ float sum(float a,int b){
     cout<<"using function with only two arguments"<<endl;
     return a+b;
 }
-// calculate the volume of cube
+// calculate the volume of cylinder
 int volume(double r,int h ){
     cout<<"the volume of cylinder"<<endl;
     return (3.14*r*r*h);
@@ -34,7 +34,7 @@ int main(){
     cout<<"the sum of a,b "<<endl;
     cout<<sum(3.14,5)<<endl;
     cout<<volume(5,6)<<endl;
-    cout<<volume(81)<<endl;
+    cout<<volume(34)<<endl;
     cout<<area(36.14,6.21)<<endl;
     return 0;
 }
