@@ -10,6 +10,7 @@ class employee {
         void getdata ();
 
 };
+// program regarding to object oriented programing
 int main() {
     cout<<"the value of a"<<endl;
     cout<<"the value of b"<<endl;
