@@ -16,5 +16,12 @@ int main(){
 
     cout<<"the value of b is "<<b<<endl;
 
+    // pointer to pointer
+    int** c=&b;
+    cout<<"the address of b is "<<&b<<endl;
+    cout<<"the address of b is "<<c<<endl;
+    cout<<"the value at address of c is "<<*c<<endl;
+    cout<<"the address of b is "<<&b;
+
     return 0;
 }
